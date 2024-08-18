@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon"
+    href="https://play-lh.googleusercontent.com/MWCnZZzrbIgGoCnrtLq1-Zt4vgY3nzJSp7HvzxdnK5o0bXz6gswjgJOpRX0cddLpYOg">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="back">
+  <nav class="navbar navbar-expand-lg navbar-light bg-174B66 sticky-top poppins">
+    <div class="container">
+      <div class="logo-container">
+        <img src="images/logo-wbg.png" alt="Saint Francis School Logo" style="width: 400px;">
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mar-l" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">
+              <p class="white">Home</p>
+            </a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">
+              <p class="white">About</p>
+            </a></li>
+          <li class="nav-item"><a class="nav-link" href="admission.html">
+              <p class="white">Admission</p>
+            </a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">
+              <p class="white">Contacts</p>
+            </a></li>
+          <li class="nav-item"><a class="nav-link" href="curriculum.html">
+              <p class="white">Curriculum</p>
+            </a></li>
+          <li class="nav-item"><a class="nav-link" href="enquiry.html">
+              <p class="white">Enquiry</p>
+            </a></li>
+          <li class="nav-item"><a class="nav-link" href="examinations.html">
+              <p class="white">Examinations</p>
+            </a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="icons.html">
+                <p class="col-135D66">Our Icons</p>
+              </a></li> -->
+          <div class="dropdown">
+            <a class="btn nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <p class="white dropdown-toggle">Our Icons</p>
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="icons.html">ICSE Toppers</a></li>
+              <li><a class="dropdown-item" href="icons-2.html">SSC Toppers</a></li>
+            </ul>
+          </div>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">
+              <p class="white">Gallery</p>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="breadcrumb_wrap" data-stellar-background-ratio="0.3"
+    style="background: url(images/slider01.jpg); background-attachment: fixed; background-position: 50% 50%;">
+    <div class="breadcrumb_wrap_inner">
+      <div class="container">
+        <h1 class="poppins align-center">Login</h1>
+      </div>
+    </div>
+  </div>
+  <div class="cards">
+    <div class="spacers"></div>
+    <div class="container my-5">
+      <div class="position-relative p-5 text-muted bg-white thick rounded-5">
+        <!-- <button type="button" class="position-absolute top-0 end-0 p-3 m-3 btn-close bg-secondary bg-opacity-10 rounded-pill" aria-label="Close"></button> -->
+        <!-- <svg class="bi mt-5 mb-3" width="48" height="48"><use xlink:href="#check2-circle"></use></svg> -->
+        <h1 class="text-body-emphasis">Login</h1>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input onclick="handleInput()" type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Have you read the <a href="terms.html">Terms Of
+                Service</a>?</label>
+          </div>
+          <button onclick="handleSubmit()" type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="container mt-5">
+    </div>
+    <div class="col-penn">
+      <div class="container">
+        <footer class="row py-5 mt-5 poppins col-penn white">
+          <div class="col mb-3">
+            <img src="images/logo-wbg.png" alt="alt" style="width:400px; margin-bottom: 20px;">
+            <p class="font-s">
+              <i class="fas fa-home mr-1"></i> Madhurawada, Visakhapatnam, AP
+            </p>
+            <p class="font-s">
+              <i class="fas fa-envelope mr-1"></i> info@stfrancisschool.com
+            </p>
+            <p class="font-s">
+              <i class="fas fa-phone mr-1"></i> +91 891 2781481
+            </p>
+            <p class="font-s">
+              <i class="fas fa-print mr-1"></i> +91 891 2781484
+            </p>
+          </div>
+          <div class="col mb-3">
+          </div>
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">Home</li>
+              <li class="nav-item mb-2">Features</li>
+              <li class="nav-item mb-2">Pricing</li>
+              <li class="nav-item mb-2">FAQs</li>
+              <li class="nav-item mb-2">About</li>
+            </ul>
+          </div>
+          <div class="col mb-3">
+            <h5>Location</h5>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.8057172447952!2d83.35806163181753!3d17.800825699553734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a395ba3b3321179%3A0x45773f93b319d301!2sSt.%20Francis%20School%20(SFS)%2C%20Madhurawada!5e0!3m2!1sen!2sin!4v1721473698589!5m2!1sen!2sin"
+              style="border:0; width: 100%; height: 15rem;" allowfullscreen="yes" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </footer>
+      </div>
+      <div class="col-foot2">
+        <div class="container row px-5">
+          <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 coppyright_txt"> Copyright @ 2024 All rights reserved :
+            &nbsp;<span style="color:#96ca4a">St. Francis School.</span> </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 coppyright_txt">Developed by : <a href="#"><span
+                style="color:#f37419">G. Mohan Pawan, SFS</span> </a></div>
+        </div>
+      </div>
+      <script src="https://kit.fontawesome.com/747233b0f8.js" crossorigin="anonymous"></script>
+      <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
