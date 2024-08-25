@@ -50,7 +50,9 @@ body {
   width: 100%;
   background-size: #174B66;
 }
-
+.mx-a {
+  margin-left: 35%;
+}
 .sm {
   height: 100px;
   width: 130px;
