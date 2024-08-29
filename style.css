@@ -18,6 +18,25 @@ body {
   /* letter-spacing: 2px; */
 }
 
+.overlap-it-sfs {
+  background-image: url("images/sfs.png");
+  text-align: center;
+  height: 30rem;
+  padding-top: 13%;
+}
+
+.large {
+  font-size: 70px;
+}
+
+.shadow {
+  text-shadow: 2px 2px 5px black;
+}
+
+.black {
+  color: black;
+}
+
 .green {
   color: lightgreen;
 }
