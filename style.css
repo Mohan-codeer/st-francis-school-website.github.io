@@ -26,12 +26,12 @@ body {
   padding-top: 13%;
 }
 
-.overlap-it-about {
-  background-image: url("images/abt.png");
+.overlap-it-new {
+  /* background-image: url("images/abt.png"); */
   background-position: top;
   text-align: center;
   height: 30rem;
-  padding-top: 13%;
+  /* padding-top: 13%; */
 }
 .overlap-it-admi {
   background-image: url("images/admi.png");
@@ -754,7 +754,7 @@ body {
   }
 
   .outer {
-    height: 100rem;
+    height: 120rem;
   }
 
   .temp-inner-2 {
@@ -764,11 +764,13 @@ body {
   .g {
     width: 95%;
     font-size: 90%;
+    height: 20rem;
   }
 
   .b {
     width: 95%;
     font-size: 90%;
+    height: 20rem;
   }
 
   .fl {
@@ -777,7 +779,7 @@ body {
 
   .di1 {
     width: 100%;
-    height: auto;
+    height: 70rem;
   }
 
   /* .di2 {
