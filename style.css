@@ -20,6 +20,64 @@ body {
 
 .overlap-it-sfs {
   background-image: url("images/sfs.png");
+  background-position: top;
+  text-align: center;
+  height: 30rem;
+  padding-top: 13%;
+}
+
+.overlap-it-about {
+  background-image: url("images/abt.png");
+  background-position: top;
+  text-align: center;
+  height: 30rem;
+  padding-top: 13%;
+}
+.overlap-it-admi {
+  background-image: url("images/admi.png");
+  background-position: top;
+  text-align: center;
+  height: 30rem;
+  padding-top: 13%;
+}
+
+.overlap-it-contact {
+  background-image: url("images/contact.png");
+  background-position: top;
+  text-align: center;
+  height: 30rem;
+  padding-top: 13%;
+}
+
+
+.overlap-it-cirr {
+  background-image: url("images/cirr.png");
+  background-position: top;
+  text-align: center;
+  height: 30rem;
+  padding-top: 13%;
+}
+
+.overlap-it-enq {
+  background-image: url("images/bg-page.png");
+  background-position: top;
+  text-align: center;
+  height: 30rem;
+  padding-top: 13%;
+}
+
+.overlap-it-exam {
+  background-image: url("images/exam.png");
+  background-position: top;
+  text-align: center;
+  height: 30rem;
+  padding-top: 13%;
+}
+
+
+.overlap-it-gal {
+  background-image: url("images/gal.png");
+  background-position: top;
   text-align: center;
   height: 30rem;
   padding-top: 13%;
